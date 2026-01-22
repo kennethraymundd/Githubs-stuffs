@@ -1,0 +1,31 @@
+Read a raw CSV with messy data
+
+Fixed column names (removed extra spaces)
+
+Removed extra spaces in values
+
+Converted text to proper numbers and dates
+
+Turned invalid values into nulls
+
+Standardized inconsistent values
+
+CASH, c@sh → cash
+
+S001, s001 → s001
+
+Parsed different date formats into one format
+
+Removed duplicate rows
+
+Removed rows with missing critical data
+
+Removed rows with invalid business values (negative sales)
+
+Enforced final data types for BigQuery
+
+Saved a clean CSV
+
+Generated a BigQuery schema file
+
+Prepared data so it can be loaded without auto-detect

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "order_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "customer_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "order_date",
+    "type": "DATE",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "amount",
+    "type": "FLOAT",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "payment_method",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "store_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]
